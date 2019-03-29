@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+img {
+  margin-right: 15px;
+}
+
 
 .textInfo {
   /* margin-left: 50px; */
@@ -42,7 +46,7 @@ h4 {
 }
 
 h2 {
-  margin-left: 105px;
+  margin-left: 130px;
 }
 
 

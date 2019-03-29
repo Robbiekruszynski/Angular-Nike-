@@ -19,5 +19,10 @@ justify-content: center;
 
 
 h2 {
-  margin-left: 105px;
+  margin-left: 130px;
+}
+
+img {
+  margin-right: 15px;
+  margin-top: 15px;
 }
