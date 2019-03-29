@@ -10,15 +10,37 @@
 
 
 .textInfo {
+  /* margin-left: 50px; */
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  width: 100vw;
+  /* flex-direction: column; */
 
 }
 
 .group-one {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+width:25vw;
+}
+
+.group-two {
+width:25vw;
+}
+.group-three {
+width:25vw;
+}
+
+.group-four {
+width:25vw;
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+h4 {
+  margin-left: 60px;
+}
+
+p {
+  margin-left: 60px;
 }

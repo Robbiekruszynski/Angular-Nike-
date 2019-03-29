@@ -7,3 +7,7 @@
   flex-direction: row;
   justify-content: center;
 }
+
+h2 {
+  margin-left: 30px;
+}
