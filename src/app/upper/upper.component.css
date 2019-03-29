@@ -1,10 +1,25 @@
-img {
-  text-align: center;
+
+* {
+  border: 1px red solid;
 }
+
 h1 {
   text-align: center;
 }
 
 p {
   text-align: center;
+}
+
+.shoeHold {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }

@@ -8,6 +8,7 @@ import { UpperComponent } from './upper/upper.component';
 import { MidComponent } from './mid/mid.component';
 import { LowerComponent } from './lower/lower.component';
 import { FooterComponent } from './footer/footer.component';
+import { MidLowerComponent } from './mid-lower/mid-lower.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     UpperComponent,
     MidComponent,
     LowerComponent,
-    FooterComponent
+    FooterComponent,
+    MidLowerComponent
   ],
   imports: [
     BrowserModule

@@ -1,3 +1,7 @@
+* {
+  border: 1px red solid;
+}
+
 a{
   color: gray;
   text-decoration: none;
@@ -13,5 +17,9 @@ ul{
   margin: 2rem 0;
 }
 li:hover{
-  background-color: green;
+  background-color: black;
+}
+
+p {
+  text-align: center;
 }
