@@ -1,46 +1,6 @@
  * {
   border: 1px red solid;
 }
-/*
-a{
-  color: gray;
-  text-decoration: none;
-}
-
-ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
-  /* font-size: 3rem; */
-  /* background-color: #ffeee4; */
-  /* list-style-type: none;
-  margin: 2rem 0;
-  height: 4vh;
-}
-li:hover{
-  background-color: black;
-}
-
-p {
-  text-align:
-
-}
-
-img {
-
-}
-
-.midNav {
-  height: 3vh;
-  width: 100vw;
-}
-
-.navParent {
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid lightgrey; } */
 
   .navParent {
   height: 40px;
