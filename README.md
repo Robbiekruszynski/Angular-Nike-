@@ -10,6 +10,12 @@ https://www.nike.com/ clone using Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+## Research
+* Study of https://www.nike.com/
+* Understanding where the separation of presented information rests.
+* Pinpointing if flex is used over grid methods in CSS
+* Observing the order of photos and aesthetic value for layout
+
 ### Setup/Installation Requirements
 * As of 03/29/19:
 * Open your preferred browser
@@ -22,6 +28,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Once in your terminal and proper directory run the command
 `npm install` (provided you are free of errors continue and run the next command)
 * `npm ng serve -open` (should automatically open in your default browser)
+
+## Specs
+* User will have the ability to explore the Nike clone and compare it to the original design
 
 ## Development server
 
@@ -50,7 +59,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ![application example](src/assets/img/block-two.png)
 ![application example](src/assets/img/block-three.png)
 ![application example](src/assets/img/block-four.png)
-![application example](src/assets/img/block-five.png)
+![application example](src/assets/img/footer.png)
+
+
+#### Buildout version:
+![application example](src/assets/img/build-nav.png)
 
 ## Known Bugs
 _As of March 29th 2019 there are no known bugs_
@@ -66,6 +79,12 @@ _As of March 29th 2019 there are no known bugs_
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+#### Developmental Roadmap
+* Continue to buildout all maps for mobile / desktop / tablet
+* further develop usability
+* Implement firebase
+* Develop functionality with Log/In along with search function
 
 ### License
 
