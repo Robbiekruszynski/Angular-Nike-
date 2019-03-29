@@ -9,6 +9,7 @@ import { MidComponent } from './mid/mid.component';
 import { LowerComponent } from './lower/lower.component';
 import { FooterComponent } from './footer/footer.component';
 import { MidLowerComponent } from './mid-lower/mid-lower.component';
+import { LowerUpperComponent } from './lower-upper/lower-upper.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MidLowerComponent } from './mid-lower/mid-lower.component';
     MidComponent,
     LowerComponent,
     FooterComponent,
-    MidLowerComponent
+    MidLowerComponent,
+    LowerUpperComponent
   ],
   imports: [
     BrowserModule
