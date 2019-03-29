@@ -1,0 +1,18 @@
+* {
+  border: 1px red solid;
+}
+
+.main {
+display: flex;
+justify-content: center;
+}
+.photo-left {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+}
+
+.photos-right {
+  display: flex;
+  flex-direction: column;
+}
