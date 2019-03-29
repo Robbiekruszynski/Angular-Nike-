@@ -47,12 +47,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 
 Original site:
-![application example](src/app/assets/img/top-main.png)
-![application example](src/app/assets/img/block-one.png)
-![application example](src/app/assets/img/block-two.png)
-![application example](src/app/assets/img/block-three.png)
-![application example](src/app/assets/img/block-four.png)
-![application example](src/app/assets/img/block-five.png)
+![application example](src/assets/img/top-main.png)
+![application example](src/assets/img/block-one.png)
+![application example](src/assets/img/block-two.png)
+![application example](src/assets/img/block-three.png)
+![application example](src/assets/img/block-four.png)
+![application example](src/assets/img/block-five.png)
 
 ## Known Bugs
 _As of March 29th 2019 there are no known bugs_
