@@ -1,6 +1,6 @@
 # NikeClone
 
-#### { 03/29/19}_
+#### {03/29/19}
 
 ### Created by: Robbie Kruszynski
 
@@ -50,7 +50,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 _As of March 29th 2019 there are no known bugs_
 
 
-#### List of Technologies Resources
+## List of Technologies Resources
 * HTML
 * CSS
 * Angular
