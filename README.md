@@ -64,6 +64,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 #### Buildout version:
 ![application example](src/assets/img/build-nav.png)
+![application example](src/assets/img/build-two.png)
+![application example](src/assets/img/build-three.png)
+![application example](src/assets/img/build-four.png)
 
 ## Known Bugs
 _As of March 29th 2019 there are no known bugs_
