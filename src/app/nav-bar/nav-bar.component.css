@@ -1,0 +1,17 @@
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 3rem;
+  background-color: #ffeee4;
+  list-style-type: none;
+  margin: 2rem 0;
+}
+li:hover{
+  background-color: lightgray;
+}
