@@ -11,8 +11,14 @@
 
 .textInfo {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   flex-direction: column;
-align-items:
 
+}
+
+.group-one {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
