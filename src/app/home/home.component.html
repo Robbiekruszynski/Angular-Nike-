@@ -1,0 +1,18 @@
+<div class = "container">
+  <h1>
+    <!-- Welcome to {{ title }}! -->
+    <app-nav-bar></app-nav-bar>
+    <app-upper></app-upper>
+    <app-mid></app-mid>
+    <app-mid-lower></app-mid-lower>
+    <app-lower-upper></app-lower-upper>
+    <app-lower></app-lower>
+    <app-footer></app-footer>
+  </h1>
+
+  <div *ngFor="let data of data | async" (click)="goToDetailPage(data)" class="panel panel-default">
+  <div class="panel-body">
+    <h3> Name {{data.name}} For {{data.type}} Cost {{data.price}}</h3>
+  </div>
+</div>
+</div>

@@ -11,6 +11,8 @@ import { LowerComponent } from './lower/lower.component';
 import { FooterComponent } from './footer/footer.component';
 import { MidLowerComponent } from './mid-lower/mid-lower.component';
 import { LowerUpperComponent } from './lower-upper/lower-upper.component';
+import { HomeComponent } from './home/home.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +30,9 @@ export const firebaseConfig = {
     LowerComponent,
     FooterComponent,
     MidLowerComponent,
-    LowerUpperComponent
+    LowerUpperComponent,
+    HomeComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule
