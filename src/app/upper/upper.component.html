@@ -6,3 +6,9 @@
 <div class = "button">
   <button type="button" name="button">Shop</button>
 </div>
+
+<ul *ngFor="let data of datas | async">
+  <li>{{data.name}}</li>
+  <li>{{data.type}}</li>
+  <li>{{data.price}}</li>
+</ul>

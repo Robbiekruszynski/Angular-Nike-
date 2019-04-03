@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
-import { Data } from './data/data.model'
+import { Data } from '../data/data.model'
 import { Router } from '@angular/router';
 import { DataService} from '../data.service'
 @Component({
@@ -10,11 +10,12 @@ import { DataService} from '../data.service'
   providers: [DataService]
 })
 export class HomeComponent implements OnInit {
-  users: FirebaseListObservable<any[]>;
+  data: FirebaseListObservable<any[]>;
 
     constructor(private router: Router, private dataService: DataService) {}
 
   ngOnInit() {
+  // this.data = this.dataService.getData();
   }
 
 }
