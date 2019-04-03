@@ -16,5 +16,8 @@ constructor(private dataService: DataService) {}
   ngOnInit() {
   this.datas = this.dataService.getData();
   }
-
+ dataDisplay= null;
+ button(){
+  this.dataDisplay=true;
+ }
 }

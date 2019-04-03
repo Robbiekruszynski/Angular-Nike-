@@ -4,11 +4,13 @@
 <h2>STEP INTO THE FUTURE</h2>
 <h4>Experience the new era of Air</h4>
 <div class = "button">
-  <button type="button" name="button">Shop</button>
+  <button (click)="button()" type="button" name="button">Shop</button>
 </div>
 
-<ul *ngFor="let data of datas | async">
-  <li>{{data.name}}</li>
-  <li>{{data.type}}</li>
-  <li>{{data.price}}</li>
-</ul>
+<div *ngIf="dataDisplay">
+  <ul *ngFor="let data of datas | async"> 
+    <li>{{data.name}}</li>
+    <li>{{data.type}}</li>
+    <li>{{data.price}}</li>
+  </ul>
+  </div>

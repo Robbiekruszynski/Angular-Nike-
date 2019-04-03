@@ -14,6 +14,7 @@ import { LowerUpperComponent } from './lower-upper/lower-upper.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { routing } from './app.routing';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -36,10 +37,10 @@ export const firebaseConfig = {
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     HttpClientModule,
     FormsModule,
-    // routing,
+    routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
