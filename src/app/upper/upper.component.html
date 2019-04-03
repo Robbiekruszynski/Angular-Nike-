@@ -8,7 +8,8 @@
 </div>
 
 <div *ngIf="dataDisplay">
-  <ul *ngFor="let data of datas | async"> 
+  <ul *ngFor="let data of datas | async">
+    <img src="{{data.image}}" alt="">
     <li>{{data.name}}</li>
     <li>{{data.type}}</li>
     <li>{{data.price}}</li>
