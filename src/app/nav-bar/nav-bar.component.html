@@ -44,10 +44,18 @@
     <img src="assets/img/search.png" class="mobile-search">
     <div class="search-bar">
       <img src="assets/img/search.png" alt="">
-      <input type="text" placeholder="Search">
+      <form>
+        <input #search ng-model="SearchText" type="text" placeholder="Search">
+        <ul>
+          <li ng-repeat="c in characters | filter : searchText">
+            {{ c }}
+          </li>
+        </ul>
+        <button (click)="searchStuff(search.value);search.value=''"></button>
+      </form>
+
     </div>
   </div>
 </div>
 <div class="banner">
-  <!-- <img src="img/banner.png" alt=""> -->
 </div>

@@ -7,7 +7,7 @@
   <button (click)="button()" type="button" name="button">Shop</button>
 </div>
 
-<div *ngIf="dataDisplay">
+<div class="shoeShow" *ngIf="dataDisplay">
   <ul *ngFor="let data of datas | async">
     <img src="{{data.image}}" alt="">
     <li>{{data.name}}</li>

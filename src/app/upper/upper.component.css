@@ -25,3 +25,9 @@ h4 {
   /* width: 500px; */
 
 }
+
+.shoeShow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

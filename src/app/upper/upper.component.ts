@@ -11,7 +11,6 @@ import { Data } from '../data/data.model'
 })
 export class UpperComponent implements OnInit {
   datas: FirebaseListObservable<any[]>;
-
 constructor(private dataService: DataService) {}
   ngOnInit() {
   this.datas = this.dataService.getData();
@@ -20,4 +19,5 @@ constructor(private dataService: DataService) {}
  button(){
   this.dataDisplay=true;
  }
+
 }

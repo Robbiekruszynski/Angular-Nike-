@@ -80,7 +80,9 @@
 .converseBox {
   width: 133px;
   height: 40px; }
-
+button {
+  display: none;
+}
 .navigate {
   height: 50px;
   display: flex;
