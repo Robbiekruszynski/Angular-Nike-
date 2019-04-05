@@ -42,7 +42,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Navigate to https://www.firebase.com and click on Go To Console in the top right corner. Select the project we just created. In Project overview you should see a symbol that looks like this </> click it and that showcase in the info you need
 ![application example](src/assets/img/screenWhere.png)
-![application example](src/assets/img/screenInfo.pdf)
+![application example](src/assets/img/screenAPI.png)
 
 * In your api-keys.ts file replace all the x with the information that firebase gave you.
 * You may run npm start of ng serve --open to bring up a live version of the website through your local host
