@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Observing the order of photos and aesthetic value for layout
 
 ### Setup/Installation Requirements
-* As of 03/29/19:
+* As of 04/05/19:
 * Open your preferred browser
 * copy / paste
 * https://github.com/Robbiekruszynski/Angular-Nike-
