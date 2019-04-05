@@ -1,6 +1,6 @@
 # NikeClone
 
-#### {03/29/19} initial start  // {04/05/19} continuation 
+#### {03/29/19} initial start  // {04/05/19} continuation
 
 ### Created by: Robbie Kruszynski
 
@@ -31,26 +31,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Specs
 * User will have the ability to explore the Nike clone and compare it to the original design
+* User will have the ability to click on the search button to generate shoes from firebase database.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Screenshots
 #### Original site:
@@ -70,7 +55,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ![application example](src/assets/img/build-five.png)
 
 ## Known Bugs
-_As of March 29th 2019 there are no known bugs_
+_As of April 5th 2019 there are no known bugs_
 
 
 ## List of Technologies Resources
