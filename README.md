@@ -28,6 +28,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Once in your terminal and proper directory run the command
 `npm install` (provided you are free of errors continue and run the next command)
 * `npm ng serve -open` (should automatically open in your default browser)
+*  This will result in running on a local host
+
+
 
 ## Specs
 * User will have the ability to explore the Nike clone and compare it to the original design
