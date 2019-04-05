@@ -78,7 +78,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 #### Buildout version 2:
 ![application example](src/assets/img/screenNav.gif)
-![application example](src/assets/img/screen.gif)
 ![application example](src/assets/img/screenData.gif)
 ![application example](src/assets/img/screenBottom.png)
 
