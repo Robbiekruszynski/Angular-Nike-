@@ -52,4 +52,16 @@ h2 {
 
 p {
   margin-left: 60px;
+  color: lightgrey;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
 }

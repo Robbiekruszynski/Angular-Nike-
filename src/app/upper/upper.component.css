@@ -31,3 +31,13 @@ h4 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+
+ul {
+  border: dotted 1px black;
+  margin-bottom: 10px;
+}
+li {
+  text-align: center;
+  color: black;
+}
