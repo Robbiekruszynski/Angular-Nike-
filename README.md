@@ -30,7 +30,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * `npm ng serve -open` (should automatically open in your default browser)
 *  This will result in running on a local host
 
+### Setup/Installation Requirements for Live Deployment
+* You will need to create an api file
+`touch src/app/api-keys.ts`
+* You are required you to have a firebase project setup so please go to https://www.firebase.com and signin with your google account then select Console in the top right corner
+* Create a new project. Your project name should align with the overall project. Name it angular-nike.
+* Open Angular-nike folder in your text editor.
+* Locate the api-keys.ts file that we created in the project
+* Inside this file add this line
+`export const masterFirebaseConfig = { apiKey: "xxxx", authDomain: "xxxx.firebaseapp.com", databaseURL: "https://xxxx.firebaseio.com", storageBucket: "xxxx.appspot.com", messagingSenderId: "xxxx" };`
 
+* Navigate to https://www.firebase.com and click on Go To Console in the top right corner. Select the project we just created. In Project overview you should see a symbol that looks like this </> click it and that showcase in the info you need
+![application example](src/assets/img/screenWhere.png)
+![application example](src/assets/img/screenInfo.png)
+
+* In your api-keys.ts file replace all the x with the information that firebase gave you.
+* You may run npm start of ng serve --open to bring up a live version of the website through your local host
+* Make sure you view the rules under Database and they are set to true in order to run and edit the live version hosted on firebase.
+![application example](src/assets/img/screenRules.png)
+* go in your terminal and run firebase deploy
+*  copy and paste the link proved in your browser to view the live version
 
 ## Specs
 * User will have the ability to explore the Nike clone and compare it to the original design
