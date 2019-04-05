@@ -33,7 +33,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Setup/Installation Requirements for Live Deployment
 * You will need to create an api file
 `touch src/app/api-keys.ts`
-* You are required you to have a firebase project setup so please go to https://www.firebase.com and signin with your google account then select Console in the top right corner
+* You are required you to have a firebase project setup so please go to https://www.firebase.com and sign in with your google account then select Console in the top right corner
 * Create a new project. Your project name should align with the overall project. Name it angular-nike.
 * Open Angular-nike folder in your text editor.
 * Locate the api-keys.ts file that we created in the project
@@ -45,19 +45,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![application example](src/assets/img/screenAPI.png)
 
 * In your api-keys.ts file replace all the x with the information that firebase gave you.
-* You may run npm start of ng serve --open to bring up a live version of the website through your local host
+* You may run npm start of ng serve -open to bring up a live version of the website through your local host
 * Make sure you view the rules under Database and they are set to true in order to run and edit the live version hosted on firebase.
 ![application example](src/assets/img/screenRules.png)
 * go in your terminal and run firebase deploy
 *  copy and paste the link proved in your browser to view the live version
 
 ## Specs
-* User will have the ability to explore the Nike clone and compare it to the original design
+* User will have the ability to explore the Nike clone and compare it to the original design.
 * User will have the ability to click on the search button to generate shoes from firebase database.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* User will be redirected to nike.com website with accurate link pathing.
 
 ## Screenshots
 #### Original site:
@@ -98,8 +95,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Developmental Roadmap
 * Continue to buildout all maps for mobile / desktop / tablet
-* further develop usability
-* Implement firebase
 * Develop functionality with Log/In along with search function
 
 ### License
