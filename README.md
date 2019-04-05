@@ -2,6 +2,8 @@
 
 #### {03/29/19} initial start  // {04/05/19} continuation
 
+live view: https://angular-nike.firebaseapp.com/
+
 ### Created by: Robbie Kruszynski
 
 
