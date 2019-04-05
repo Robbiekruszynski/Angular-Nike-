@@ -1,6 +1,6 @@
 # NikeClone
 
-#### {03/29/19}
+#### {03/29/19} initial start  // {04/05/19} continuation 
 
 ### Created by: Robbie Kruszynski
 
