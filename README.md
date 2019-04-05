@@ -77,9 +77,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ![application example](src/assets/img/build-five.png)
 
 #### Buildout version 2:
+![application example](src/assets/img/screenNav.gif)
 ![application example](src/assets/img/screen.gif)
-![application example](src/assets/img/screenDeploy.png)
-
+![application example](src/assets/img/screenData.gif)
+![application example](src/assets/img/screenBottom.png)
 
 ## Known Bugs
 _As of April 5th 2019 there are no known bugs_
